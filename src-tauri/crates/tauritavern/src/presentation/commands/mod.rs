@@ -35,6 +35,7 @@ pub mod registry;
 pub mod resource_bridge_commands;
 #[cfg(any(target_os = "macos", windows, target_os = "linux"))]
 pub mod runtime_paths_commands;
+pub mod search_commands;
 pub mod secret_commands;
 pub mod settings_commands;
 pub mod skill_commands;
